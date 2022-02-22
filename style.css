@@ -1,0 +1,264 @@
+Box sizing rules
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+/***********************************/
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+
+
+
+body {
+    
+    display:flex;
+    width: 1300px;
+    margin: 0 auto;  
+    font-family: 'Raleway', sans-serif;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 3px 80px 2px #000000;
+  
+}
+
+.wrapper {
+    margin-bottom: 80px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+/****************************************/
+
+.container1 {
+    background-image:url(pics/BG-IMAGE.png);
+    width: 1300px;
+    height: 800px;
+    gap: 30px;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+h1 {
+  
+    font-size: 35px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;;
+    letter-spacing: 6px;
+    color: #fff ;
+}   
+
+.container1>p {
+    color: #fff;
+    letter-spacing: 6px;
+    font-size: 13px;
+}
+.yellow-squre>a {
+
+    
+    text-decoration: none;
+    color: black; 
+    font-size: 12px;
+    letter-spacing: 4px;
+    padding: 10px;  
+    text-align: center;
+    width:100%;
+}
+
+.yellow-squre {
+    padding: 10px 20px;
+    width: 140px;
+    height: 25px;
+    background: #FDE500 ;
+    
+    
+
+}
+/***************************************/
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+   
+}
+.container2>p {
+    width: 636px;
+    height: 99px;
+    line-height: 32.96px;
+    size: 16px;
+    text-align: center;
+    margin-bottom: 150px;
+}
+.container2>img {
+margin-top: 150px;
+
+}
+/******************************************/
+
+.container3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:1300px;
+    height:929px;
+    background:#F4F4F4;
+    
+}
+
+.container3>img {
+    margin-top: 84px;
+
+}
+.container3> h2 {
+    margin-top:31px;
+    size:20px;
+    line-height:28px;
+    letter-spacing: 8px;
+    font-weight: 600;
+}
+
+.container3>p {
+    
+    margin-top:23px;
+    margin-bottom:72px;
+    width: 764px;
+    height: 66px;    
+    text-align: center;
+    font-size: 16px;
+    line-height: 140%;      
+    
+}
+
+
+    .cardsContainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 20px 10px;
+    }
+    .card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 10px;
+
+
+    }
+
+    .upperCard {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0px 0px 4px 0px #00000033;
+        background: #FFFF;
+        height: 353px;
+        width:100%;
+        text-align: center;
+        gap: 10px;
+
+    }
+
+    .upperCard img {
+        margin-top:49px;
+    }
+
+    .upperCard p {
+
+        padding: 10px;
+    }
+
+
+
+    .downerCard {
+        display: flex;
+        flex-direction:column;
+        justify-content:space-evenly ;
+        width: 100%;
+        margin-top: 24px;
+        box-shadow: 0px 0px 4px 0px #00000033;
+        background: #FFFF;
+        height: 166px;
+        margin-bottom: 50px;
+    }
+
+    .box {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .yellowLine {
+        /*display: inline-block;*/
+        width: 180px;
+        height: 5px;
+        background: #FDE500;
+    }
+
+    .silverLine {
+        /*display: inline-block;*/
+        width: 35px;
+        height: 5px;
+        background: #F3F3F3;
+    }
+
+    h3 {
+     margin-left: 20px;
+    }
+
+    /************************************/
+
+    .container4 {
+        display:flex;
+        justify-content: space-around;
+        width:1300px;
+        height: 241px;
+        background:black;
+    }
+
+    .squerSilver{
+        display: flex;
+        gap: 0px  50px;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .box4 {
+        background: #FFFFFF;
+        width: 225px;
+        height:71px;
+        margin-top: 10px;
+
+    }
+
+    .box4 p {
+        text-align: center;
+        margin-top:8px;
+
+    }
